@@ -1,0 +1,17 @@
+  <h2>{{name}}</h2>
+  <table class="table table-sm table-hover table-inverse">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#results}}
+        <tr>
+          <td>{{date}}</td>
+          <td>{{score}}</td>
+        </tr>
+      {{/results}}
+    </tbody>
+  </table>
